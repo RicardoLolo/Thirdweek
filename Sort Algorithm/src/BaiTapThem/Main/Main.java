@@ -32,17 +32,43 @@ public class Main {
             System.out.println("3. Delete human by name ");
             System.out.println("4. edit human by name");
             System.out.println("5. Display all human by name ");
-            System.out.println("6. ");
-            System.out.println("7. ");
-            System.out.println("8. ");
-            System.out.println("9. ");
+            System.out.println("6. Display all man in list ");
+            System.out.println("7. Display all woman in list ");
+            System.out.println("8. Display all people under 20 years old in list ");
+            System.out.println("9. Display by the name entered ");
             System.out.println("0. Exit");
             System.out.println("Enter your choice: ");
             choice = scanner.nextInt();
 
-            switch (choice) {
-            }
+            case 1:
+                CandyManagement. ();
+                break;
+            case 2:
+                CandyManagement. ();
+                break;
+            case 3:
+                CandyManagement. ();
+                break;
+            case 4:
+                CandyManagement. ();
+                break;
+            case 5:
+                CandyManagement. ();
+                break;
+            case 6:
+                CandyManagement. ();
+                break;
+            case 7:
+                CandyManagement. ();
+                break;
+            case 8:
+                CandyManagement. ();
+                break;
+            default:
+                System.out.println("Wrong choice!!!");
+                break;
         }
-
-    }
+    } while(choice!=0);
 }
+}
+

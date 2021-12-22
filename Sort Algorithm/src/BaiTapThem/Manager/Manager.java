@@ -5,5 +5,6 @@ public interface Manager {
     void addHuman();
     void editHuman();
     void deleteHumanByName();
+    void displayHumanByName();
 
 }
